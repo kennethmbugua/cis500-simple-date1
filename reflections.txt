@@ -2,3 +2,5 @@ Name:  zzNAMEzz
 
 # Put your reflections here --- including reflections on 
 # any testing oversights.
+#I got problems on adding a different days
+#I had problem getting the specific day of the week until I got an idea of subtracting 7 and then getting a specific day from then.(I think if its a future date I should add instead of subtracting
