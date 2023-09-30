@@ -87,6 +87,6 @@ def to_str(year: int, month: int, day: int) -> str:
 
     return f"{day_of_week(year,month,day)}, {day}, {month_name[month]}, {year}"
 
-print(to_str(1833,3,7))
+
 
 
