@@ -36,7 +36,7 @@ class MyDateTest(unittest.TestCase):
     def test_to_str3(self):
         self.assertEqual(my_date.to_str(2019,12,25),"Wednesday, 25, December, 2019")
     def test_to_str4(self):
-        self.assertEqual(my_date.to_str(1833,3,7),"Thursday, 7, March, 1833")
+        self.assertEqual(my_date.to_str(1833,3,7),"Thursday, 07, March, 1833")
     def test_to_str5(self):
         self.assertEqual(my_date.to_str(1290,5,13),"Saturday, 13, May, 1290")
 
