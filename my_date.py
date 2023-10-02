@@ -2,7 +2,7 @@
 # my_date
 #
 # Name: Kenneth Mbugua
-# Section: XX
+# Section: 600 02
 #
 # Fall 2023
 #########################################################
