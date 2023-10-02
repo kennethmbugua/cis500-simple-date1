@@ -87,7 +87,7 @@ def to_str(year: int, month: int, day: int) -> str:
     month_name = ("0","January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November",
     "December")
 
-    return f"{day_of_week(year,month,day)}, {day:02} {month_name[month]}, {year}"
+    return f"{day_of_week(year,month,day)}, {day:02} {month_name[month]} {year}"
 
 
 
