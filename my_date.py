@@ -59,6 +59,8 @@ def days_elapsed(year1: int, month1: int, day1: int, year2: int, month2: int, da
                total_days_in_yl = total_days_in_yl + 366
            else:
                total_days_in_y += 365
+   elif(year1==year2):
+       total_days_in_y=ordinal_date(year2,month2,day2)-ordinal_date(year1,month1,day1)
    total_days_in_y + total_days_in_yl #Getting total days
    total_days_elapsed = total_days_in_yl+total_days_in_y +days_elapsed_year1+days_elapsed_year2
    return total_days_elapsed
@@ -85,7 +87,7 @@ def to_str(year: int, month: int, day: int) -> str:
     month_name = ("0","January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November",
     "December")
 
-    return f"{day_of_week(year,month,day)}, {day:02}, {month_name[month]}, {year}"
+    return f"{day_of_week(year,month,day)}, {day:02} {month_name[month]}, {year}"
 
 
 
