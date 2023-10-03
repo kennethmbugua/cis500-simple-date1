@@ -28,17 +28,17 @@ class MyDateTest(unittest.TestCase):
         self.assertEqual(my_date.day_of_week(2019, 2, 20), "Wednesday")
 
     def test_to_str1(self):
-        self.assertEqual(my_date.to_str(2019, 2, 20), "Wednesday, 20, February, 2019")
+        self.assertEqual(my_date.to_str(2019, 2, 20), "Wednesday, 20 February 2019")
 
     def test_to_str2(self):
-        self.assertEqual(my_date.to_str(2019,1,12),"Saturday, 12, January, 2019")
+        self.assertEqual(my_date.to_str(2019,1,12),"Saturday, 12 January 2019")
 
     def test_to_str3(self):
-        self.assertEqual(my_date.to_str(2019,12,25),"Wednesday, 25, December, 2019")
+        self.assertEqual(my_date.to_str(2019,12,25),"Wednesday, 25 December 2019")
     def test_to_str4(self):
-        self.assertEqual(my_date.to_str(1833,3,7),"Thursday, 07, March, 1833")
+        self.assertEqual(my_date.to_str(1833,3,7),"Thursday, 07 March 1833")
     def test_to_str5(self):
-        self.assertEqual(my_date.to_str(1290,5,13),"Saturday, 13, May, 1290")
+        self.assertEqual(my_date.to_str(1290,5,13),"Saturday, 13 May 1290")
 
 
 if __name__ == '__main__':
